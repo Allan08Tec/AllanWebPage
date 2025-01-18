@@ -1,0 +1,39 @@
+/* Footer */
+.footer {
+    background-color: #333; /* Fondo oscuro */
+    color: white; /* Texto blanco */
+    text-align: center; /* Centrar contenido */
+    padding: 20px; /* Espaciado interno */
+    margin: 0;
+  }
+  
+  .footer-name {
+    font-size: 24px; /* Tamaño del nombre */
+    margin-bottom: 10px; /* Espacio debajo del nombre */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .footer-social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Espaciado entre íconos */
+    margin-bottom: 10px; /* Espacio debajo de los íconos */
+  }
+  
+  .social-icon {
+    color: white; /* Color de los íconos */
+    font-size: 24px; /* Tamaño de los íconos */
+    text-decoration: none; /* Sin subrayado */
+    transition: color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #1abc9c; /* Turquesa en hover */
+  }
+  
+  .footer-phone {
+    font-size: 16px;
+    margin-top: 10px; /* Espaciado superior */
+    font-family: 'Arial', sans-serif;
+  }
+  

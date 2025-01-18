@@ -1,0 +1,59 @@
+/* Navbar Styles */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+li,a,button {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; 
+    padding: 5px 20px;
+  }
+  
+  .navbar-logo img {
+    max-width: 70px; /* Ajusta el tamaño del logo */
+    border-radius: 10%;
+  }
+
+  .navbar-logo {
+    margin-left: 20px;
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 20px; /* Espaciado entre los enlaces */
+    margin-right: 20px;
+  }
+  
+  .navbar-link {
+    color: white; 
+    text-decoration: none;
+    transition: color 0.3s ease; 
+    position: relative;
+  }
+  
+  .navbar-link::after {
+    content: ''; /* Elemento vacío para la rayita */
+    position: absolute;
+    left: 0;
+    bottom: -5px; /* Distancia entre la rayita y el texto */
+    width: 100%; /* Rayita ocupa todo el ancho del enlace */
+    height: 1px; /* Grosor de la rayita */
+    background-color: white; 
+    transition: background-color 0.3s ease;
+  }
+
+    .navbar-link:hover::after{
+        background-color: #1abc9c;
+    }
+   
+  
+  .navbar-link:hover {
+    color: #1abc9c; 
+  }
